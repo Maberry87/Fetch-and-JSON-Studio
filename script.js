@@ -8,9 +8,9 @@ window.addEventListener('load',function() {
                 for(let i = 0; i < json.length; i++){
                 console.log(json[i]);
 
-            myCrewDiv.innerHTML += `
-            <div class = "astronaut">
-                <div class = "bio">
+        myCrewDiv.innerHTML += `
+         <div class = "astronaut">
+             <div class = "bio">
                 <h3>${json[i].firstName} ${json[i].lastName}</h3>
             <ul>
                 <li>${json[i].hoursInSpace}</li>
